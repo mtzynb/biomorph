@@ -31,14 +31,14 @@ body {
 #window .cell.parent {
     border: 1px solid #dadada;
     border-radius:7px;
-    /*box-shadow:0 0 10px #9ecaed;*/
+    box-shadow:0 0 10px #9ecaed;
 }
 
 #window .cell:hover {
 
     background-color: #414042;
     /*background-color: #F2F8FD;*/
-    box-shadow:0 0 10px #9ecaed;
+    box-shadow:0 0 3px #9ecaed;
     cursor: pointer;
 }
 
