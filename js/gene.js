@@ -1,7 +1,7 @@
 /*
  *  gene.js
  *  Copyright (c) 2010 Cameron McKay.  All rights reserved.
- *  Modified 2019 Mohammadtabar Zeynab.
+ *  Modified by Mohammadtabar Zeynab 2019.
  */
 (function ($) {
 

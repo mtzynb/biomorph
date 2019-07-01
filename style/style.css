@@ -1,10 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+*{ padding: 0; margin: 0; }
 
 body {
-    background-color: #111;
+    background-color: #222222;
 }
 
 #window {
@@ -23,16 +20,25 @@ body {
     float: left;
     width: 150px;
     height: 150px;
-    background-color: #222;
+
+    /*background-color: #20213f;*/
+
+    background-color: #231F20;
+
 
 }
 
 #window .cell.parent {
-    border: 1px solid #6fa9b0;
+    border: 1.5px solid #dadada;
+    border-radius:7px;
+    box-shadow:0 0 10px #9ecaed;
 }
 
 #window .cell:hover {
-    background-color: #444;
+
+    background-color: #414042;
+    /*background-color: #F2F8FD;*/
+    box-shadow:0 0 10px #9ecaed;
     cursor: pointer;
 }
 

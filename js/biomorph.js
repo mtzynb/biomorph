@@ -1,11 +1,11 @@
 /*
- *  Biomorph.js
+ *  Biomorph
  *  Copyright (c) 2010 Cameron McKay.  All rights reserved.
- *    Modified 2019 Mohammadtabar Zeynab.
+ *    Modified by Mohammadtabar Zeynab 2019.
  */
 (function ($) {
 
-    creatureNo = 14;
+    var creatureNo = 15;
 
     var renderCreature = function (spec) {
         var length = spec.length || 0,
@@ -61,7 +61,7 @@
         ret.push(bio.gene({val: Number.randomInt(0, 250), min: 0, max: 250, delta: 50})); // red
         ret.push(bio.gene({val: Number.randomInt(0, 250), min: 0, max: 250, delta: 50})); // green
         ret.push(bio.gene({val: Number.randomInt(0, 250), min: 0, max: 250, delta: 50})); // blue
-        console.log("parent length gene : ", ret.length);
+        //console.log("parent length gene : ", ret.length);
         return ret;
     };
 
@@ -109,11 +109,15 @@
         }
 
         var children = [];
+        //console.error(indices);
+        //ar = [1,1,1,3,5,7,78,89];
+        //console.error("SSSS : " , shuffleArray(ar));
+        //console.error("HIIIIIIIIIIIII ", shuffleArray(indices));
 
-        indices.shuffle().slice(0, 14).forEach(function (index) { //create 14 child
+        shuffleArray(indices).slice(0, 14).forEach(function (index) { //create 14 children
             children.push(mutateCreature(parent, index));
         });
-        console.log("children array length : ", children.length);
+        //console.log("children array length : ", children.length);
 
         [parent].concat(children).forEach(function (genes, index) {
             var segments = renderCreature({
@@ -125,7 +129,7 @@
 
             var cell = $("#cell-" + index);
             cell.parent().data("genes", genes);
-            console.log("index : ", index);
+            //console.log("index : ", index);
 
             var context = cell[0].getContext('2d');
             context.save();
@@ -165,7 +169,13 @@
             createOffspring(genes);
 
         });
-
+        //var array = [1, 2, 3, 4];
+        //shuffleArray(array);
+        //for (var i = array.length - 1; i > 0; i--) {
+        //    const j = Math.floor(Math.random() * (i + 1));
+        //    [array[i], array[j]] = [array[j], array[i]];
+        //}
+        //console.error("Array : ", array)
 
     })
 
