@@ -77,24 +77,14 @@
 
     var calculateStems = function (genes) {
         return [
-            {x: 0, y: genes[0].val()}, //1
-            {x: genes[1].val(), y: genes[2].val()}, //2
-            {x: genes[3].val(), y: 0}, //3
-            {x: genes[4].val(), y: -genes[5].val()}, //4
-            {x: genes[6].val(), y: -genes[7].val()}, //5
-            {x: genes[8].val(), y: genes[9].val()}, //6
-            {x: genes[10].val(), y: -genes[11].val()}, //7
-            {x: genes[12].val(), y: genes[13].val()}, //8
-
-            {x: 0, y: -genes[14].val()},
-
-            {x: -genes[12].val(), y: genes[13].val()}, //8'
-            {x: -genes[10].val(), y: -genes[11].val()}, //7'
-            {x: -genes[8].val(), y: genes[9].val()}, //6'
-            {x: -genes[6].val(), y: -genes[7].val()}, //5'
-            {x: -genes[4].val(), y: -genes[5].val()}, //4'
-            {x: -genes[3].val(), y: 0}, //3'
-            {x: -genes[1].val(), y: genes[2].val()} //2'
+            {x: 0, y: genes[0].val()},
+            {x: genes[1].val(), y: genes[2].val()},
+            {x: genes[3].val(), y: 0},
+            {x: genes[4].val(), y: -genes[5].val()},
+            {x: 0, y: -genes[6].val()},
+            {x: -genes[4].val(), y: -genes[5].val()},
+            {x: -genes[3].val(), y: 0},
+            {x: -genes[1].val(), y: genes[2].val()}
         ];
     };
 
