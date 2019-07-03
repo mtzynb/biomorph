@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+*{ padding: 0; margin: 0; }
 
 body {
     background-color: #222222;
@@ -31,7 +28,6 @@ body {
 .sidebar a:hover {
     color: #f1f1f1;
 }
-
 #window {
     position: absolute;
     width: 780px;
@@ -53,19 +49,20 @@ body {
 
     background-color: #231F20;
 
+
 }
 
 #window .cell.parent {
     border: 1px solid #dadada;
-    border-radius: 7px;
-    box-shadow: 0 0 10px #9ecaed;
+    border-radius:7px;
+    box-shadow:0 0 10px #9ecaed;
 }
 
 #window .cell:hover {
 
     background-color: #414042;
     /*background-color: #F2F8FD;*/
-    box-shadow: 0 0 3px #9ecaed;
+    box-shadow:0 0 3px #9ecaed;
     cursor: pointer;
 }
 
