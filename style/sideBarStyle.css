@@ -149,9 +149,14 @@ html { height: 100%;}
 }
 
 .sidebar-nav > .sidebar-brand {
-    height: 65px;
-    font-size: 20px;
-    line-height: 44px;
+    height: 20%;
+    font-size: 2.2em;
+    line-height: 20%;
+}
+
+.sidebar-nav .sidebar-child {
+    font-size: 1.6em;
+
 }
 .sidebar-nav .dropdown-menu {
     position: relative;
@@ -217,7 +222,7 @@ html { height: 100%;}
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-    background-color: #1a1a1a;
+    background-color: snow;
 }
 .hamburger.is-closed .hamb-top {
     top: 5px;

@@ -5,7 +5,6 @@
 
 body {
     background-color: #222222;
-    font-family: "Lato", sans-serif;
 }
 
 #window {
@@ -27,11 +26,6 @@ body {
     float: left;
     width: 150px;
     height: 150px;
-
-    /*background-color: #20213f;*/
-
-    /*background-color: #231F20;*/
-
 }
 
 /*@media screen and (max-width: 1250px) {*/
