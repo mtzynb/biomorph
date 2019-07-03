@@ -64,6 +64,12 @@ body {
 
 }
 
+
+#myNav{
+    width: 100%;
+
+}
+
 #window .cell.parent {
     border: 1px solid #dadada;
     border-radius: 7px;
