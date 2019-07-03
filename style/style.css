@@ -9,7 +9,7 @@ body {
 }
 
 #window {
-    position: absolute;
+    position: relative;
     width: 780px;
     height: 470px;
     /*width:  50%;*/
