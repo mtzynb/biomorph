@@ -37,30 +37,32 @@ body {
 }
 
 @media screen and (max-width: 1250px) {
-    #window{
-        width: 40%;
-        /*margin-left: 50px;*/
-    }
+    /*#window{*/
+        /*width: 40%;*/
+        /*!*margin-left: 50px;*!*/
+    /*}*/
 }
 
 @media screen and (max-width: 750px) {
     #window{
 
-        width: 100%;
+        /*width: 40%;*/
         padding: 20px;
         margin:  auto;
 
     }
-}
 
-    /*#window .cell {*/
+
+    #window .cell {
 
         /*float: none;*/
         /*width: 90%;*/
         /*margin: 40px auto;*/
-    /*}*/
+        /*display: flex;*/
+        /*flex-flow: row;*/
+    }
 
-/*}*/
+}
 
 #window .cell.parent {
     border: 1px solid #dadada;
