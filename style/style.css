@@ -53,28 +53,28 @@ body {
 /*}*/
 /*}*/
 
-@media screen and (max-width: 700px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
+/*@media screen and (max-width: 700px) {*/
+    /*.sidebar {*/
+        /*width: 100%;*/
+        /*height: auto;*/
+        /*position: relative;*/
+    /*}*/
 
-    .sidebar a {
-        float: left;
-    }
+    /*.sidebar a {*/
+        /*float: left;*/
+    /*}*/
 
-    div.content {
-        margin-left: 0;
-    }
-}
+    /*div.content {*/
+        /*margin-left: 0;*/
+    /*}*/
+/*}*/
 
-@media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-}
+/*@media screen and (max-width: 400px) {*/
+    /*.sidebar a {*/
+        /*text-align: center;*/
+        /*float: none;*/
+    /*}*/
+/*}*/
 
 #window .cell {
     border: 1px #333 solid;
