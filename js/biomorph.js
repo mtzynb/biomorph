@@ -1,8 +1,4 @@
-/*
- *  Biomorph
- *  Copyright (c) 2010 Cameron McKay.  All rights reserved.
- *    Modified by Mohammadtabar Zeynab 2019.
- */
+
 (function ($) {
 
     var creatureNo = 15;
