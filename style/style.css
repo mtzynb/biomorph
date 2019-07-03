@@ -8,73 +8,21 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-/*.sidebar {*/
-    /*height: 100%;*/
-    /*width: 160px;*/
-    /*position: fixed;*/
-    /*z-index: 1;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*background-color: #111;*/
-    /*overflow-x: hidden;*/
-    /*padding-top: 16px;*/
-/*}*/
-
-/*.sidebar a {*/
-    /*padding: 6px 8px 6px 16px;*/
-    /*text-decoration: none;*/
-    /*font-size: 20px;*/
-    /*color: #818181;*/
-    /*display: block;*/
-/*}*/
-
-/*.sidebar a:hover {*/
-    /*color: #f1f1f1;*/
-/*}*/
-
 #window {
     position: absolute;
     width: 780px;
     height: 470px;
+    /*width:  50%;*/
+    /*height: 50%;*/
     margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 20px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-flow: wrap;*/
 }
-
-/*@media screen and (max-height: 450px) {*/
-/*.sidebar {*/
-/*padding-top: 15px;*/
-/*}*/
-
-/*.sidebar a {*/
-/*font-size: 18px;*/
-/*}*/
-/*}*/
-
-/*@media screen and (max-width: 700px) {*/
-    /*.sidebar {*/
-        /*width: 100%;*/
-        /*height: auto;*/
-        /*position: relative;*/
-    /*}*/
-
-    /*.sidebar a {*/
-        /*float: left;*/
-    /*}*/
-
-    /*div.content {*/
-        /*margin-left: 0;*/
-    /*}*/
-/*}*/
-
-/*@media screen and (max-width: 400px) {*/
-    /*.sidebar a {*/
-        /*text-align: center;*/
-        /*float: none;*/
-    /*}*/
-/*}*/
 
 #window .cell {
     border: 1px #333 solid;
@@ -84,9 +32,35 @@ body {
 
     /*background-color: #20213f;*/
 
-    background-color: #231F20;
+    /*background-color: #231F20;*/
 
 }
+
+@media screen and (max-width: 1250px) {
+    #window{
+        width: 40%;
+        /*margin-left: 50px;*/
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #window{
+
+        width: 100%;
+        padding: 20px;
+        margin:  auto;
+
+    }
+}
+
+    /*#window .cell {*/
+
+        /*float: none;*/
+        /*width: 90%;*/
+        /*margin: 40px auto;*/
+    /*}*/
+
+/*}*/
 
 #window .cell.parent {
     border: 1px solid #dadada;
@@ -101,5 +75,3 @@ body {
     box-shadow: 0 0 3px #9ecaed;
     cursor: pointer;
 }
-
-
