@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <title>Biomorphsss</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--<meta name="viewport" content="user-scalable=no" />-->
+    <link rel="icon" href="resources/biomorphIcon.png" type="image/png" sizes="16x16">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="js/util/testJs.js"></script>
     <link rel="stylesheet" href="style/testCss.css"/>
+    <link rel="stylesheet" href="style/sideBarStyle.css"/>
+    <script src="js/util/util.js"></script>
+    <script src="js/gene.js"></script>
+    <script src="js/biomorph.js"></script>
+    <script src="js/util/sidebar.js"></script>
+
+
 </head>
+
 <body>
 <div id="wrapper">
     <div class="overlay"></div>
@@ -17,46 +29,12 @@
     <!-- Sidebar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
         <ul class="nav sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="#">
-                    Brand
-                </a>
-            </li>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-            </li>
-            <li>
-                <a href="#">Team</a>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/maridlcrmn">Follow me</a>
-            </li>
+            <li class="sidebar-brand"><a href="index.html">Biomorph<img src="resources/biomorphIcon.png" alt="biomorph" width="42" height="42"></a></li>
+            <li class="sidebar-child"><a href="index.html">Home</a></li>
+            <li class="sidebar-child"><a href="about.html">About</a></li>
+            <li class="sidebar-child"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
@@ -68,15 +46,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h1>Fancy Toggle Sidebar Navigation</h1>
+                    <!--<h1>Biomorph</h1>-->
+                    <div id="window">
+                        <ul class="cell-container">
+                            <li><div class="cell"><canvas id="cell-1" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-2" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-3" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-4" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-5" width="150" height="150"></canvas></div></li>
 
+                            <li><div class="cell"><canvas id="cell-6" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-7" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell parent"><canvas id="cell-0" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-8" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-9" width="150" height="150"></canvas></div></li>
+
+                            <li><div class="cell"><canvas id="cell-10" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-11" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-12" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-13" width="150" height="150"></canvas></div></li>
+                            <li><div class="cell"><canvas id="cell-14" width="150" height="150"></canvas></div></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /#page-content-wrapper -->
 
 </div>
-<!-- /#wrapper -->
+
+
+
+
+
+
 </body>
 </html>
