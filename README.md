@@ -20,6 +20,8 @@ Implementation
     To simulate genes on the computer, an array can be used. So 20 genes are stored in an array with the length of 20 including random numbers.
 
 Gens:
+
+
     •	First 15 genes are 15 numbers between -9 and 9. These are the genes that control the skeleton of my creatures. I used randomly 7 genes of 15 to draw creatures on each cell of the grid.
     •	Other genes:
             One for length of creatures (a random integer number between 2 to 12)
