@@ -69,5 +69,8 @@ In this application, I have tried to simulate the artificial selection that Dawk
     There is no grantee about the iterations that will get the user to his point. It can take a long time to get a satisfactory biomorph, or a short time.
 
 Development tools
+
+
+
     The program is a web based application, designed with bootstrap and canvas html elements.
 
