@@ -1,4 +1,6 @@
 Overview
+
+
     This is a Simple Evolution Program, based on the book The Blind Watchmaker, Richard Dawkins.
     The Evolution program, Dawkins' BioMorph, or the Dawkins evolution program is a thought experiment and a variety of computer simulations
     illustrating it. According to Richard Dawkins, biological variations from one generation to the next result from genetic mutations;
@@ -8,6 +10,8 @@ Overview
     from the real world like a bat, a spider, a fox and so on. (more)
 
 Implementation
+
+
     I inspired from the artificial selection of Dawkins and tried to implement Dawkins’ Biomorph by myself.
     on the home page of the application you can see a grid of 15 cells. Each of the 15 cells are trying to remind us of an animal or an object,
     after passing some iterations. We can call them biomorphs as well.
