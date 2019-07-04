@@ -1,3 +1,8 @@
 body {
     background-color: #222222;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:darkgray;
+}
+h2{
+    color:dimgray;
 }
